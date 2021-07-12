@@ -69,7 +69,8 @@ public class Book {
     public void displayText(){
         System.out.printf("Boot Title: %s, Author: %s, Description: %s\n", bookTitle, author, description);
     }
-
+    
+    // calculating total price for requested number of books
     public double totalPrice(){
         double totalPrice;
         if (isInStock == true){
